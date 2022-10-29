@@ -1,0 +1,32 @@
+{
+    "name": "aipachtarudin/jwt-api-module",
+    "type": "laravel-module",
+    "description": "Laravel JWT API",
+    "authors": [
+        {
+            "name": "Achtarudin",
+            "email": "aipachtarudin@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\JwtApi\\": ""
+        }
+    },
+    "require": {
+        "php": "^8.0.2",
+        "laravel/framework": "^9.19",
+        "tymon/jwt-auth": "dev-develop"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}

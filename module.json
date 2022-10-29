@@ -1,0 +1,11 @@
+{
+    "name": "JwtApi",
+    "alias": "jwtapi",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\JwtApi\\Providers\\JwtApiServiceProvider"
+    ],
+    "files": []
+}
